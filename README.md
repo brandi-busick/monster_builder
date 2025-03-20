@@ -1,16 +1,18 @@
 # Forge of Foes 5e Monster Stats
-Here is an expansion on the FoF Monster Stats Generator. This generator now allows for you to choose a Type, Role, and Theme in addition to the CR based on the Forge of Foes monster builder. It will assign your monster stats absed on the CR and Type and add a random power based on the Type, Role or Theme. 
-Stat calculations by CR were created by me with information from the 5e SRD.
-Monster Type calculations and base stats were created by me based on information from the 5e SRD.
-Monster Role calculations were created by me based on information about the Roles from the Lazy GM's 5e Monster Builder Resource Document. There are more detailed calculations in Forge of Foes, see below on how to add those.
-Powers are the common powers listed in the document which are adapted from the 5e SRD. Currently they are tagged with a role which I chose based on the Lazy GM's 5e Monster Builder Resource Document. There are even more powers in Forge of Foes, see below on how to add those.
+Here is an expansion on the FoF Monster Stats Generator. This generator now allows for you to choose a Type, Role, and Theme in addition to the CR based on the Forge of Foes monster builder. It will assign your monster stats based on the CR and Type and add a random power based on the Type, Role or Theme. 
+
+- Stat calculations by CR were created by me with information from the 5e SRD.
+- Monster Type calculations and base stats were created by me based on information from the 5e SRD.
+- Monster Role calculations were created by me based on information about the Roles from the Lazy GM's 5e Monster Builder Resource Document. There are more detailed calculations in Forge of Foes, see below on how to add those.
+- Powers are the common powers listed in the document which are adapted from the 5e SRD. Currently they are tagged with a role which I chose based on the Lazy GM's 5e Monster Builder Resource Document. There are even more powers in Forge of Foes, see below on how to add those.
 
 ## Editing this document
 Fear not if you own Forge of Foes or simply want to add your own powers, themes, roles to this tool. Here is a basic guide. 
+
 I recommend opening the html file with some kind of code editor like [Notepad++](https://notepad-plus-plus.org/downloads/) or [VsCode](https://code.visualstudio.com/Download), both are free. If not regular Notepad will work. Ctrl+f will allow you to search within a document in any of these.
 
-JSON - the objects you'll be editing are in [JSON format](https://www.w3schools.com/whatis/whatis_json.asp) since I've alread given examples you should just need to copy paste.
-Comments - lines with '//' before them are comments, meaning they dont get run as actual code. The examples I have in the code are commented, when you copy paste to a new line remove the // (Notepad++ or VS code should make this way easier as it will be a different color)
+- JSON - the objects you'll be editing are in [JSON format](https://www.w3schools.com/whatis/whatis_json.asp) since I've alread given examples you should just need to copy paste.
+- Comments - lines with '//' before them are comments, meaning they dont get run as actual code. The examples I have in the code are commented, when you copy paste to a new line remove the // (Notepad++ or VS code should make this way easier as it will be a different color)
 
 ### Powers
 You will most likely want to add more powers, either your own or ones from Forge of Foes. 
